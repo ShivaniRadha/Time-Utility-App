@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock | Stopwatch | Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Digital Clock / Stopwatch / Timer</h1>
+
+    <div class="tabs">
+        <button class="tab-btn active" data-tab="clock">Clock</button>
+        <button class="tab-btn" data-tab="stopwatch">Stopwatch</button>
+        <button class="tab-btn" data-tab="timer">Timer</button>
+    </div>
+
+    <!-- Digital Clock -->
+    <div id="clock" class="tab-content active">
+        <div class="display" id="clock-display"></div>
+    </div>
+
+    <!-- Stopwatch -->
+    <div id="stopwatch" class="tab-content">
+        <div class="display" id="stopwatch-display">00:00:00</div>
+        <div class="btn-group">
+            <button id="startSW">Start</button>
+            <button id="stopSW">Stop</button>
+            <button id="resetSW">Reset</button>
+        </div>
+    </div>
+
+    <!-- Timer -->
+    <div id="timer" class="tab-content">
+        <input type="number" id="minutes" placeholder="Enter minutes">
+        <div class="display" id="timer-display">00:00</div>
+        <div class="btn-group">
+            <button id="startTimer">Start</button>
+            <button id="resetTimer">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
