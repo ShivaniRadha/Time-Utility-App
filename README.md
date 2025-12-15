@@ -1,7 +1,7 @@
                                                            ⏱️ Time Utility App
 **##Description**
-A simple, responsive, and user-friendly Time Utility App that includes a Digital Clock, Stopwatch, and Countdown Timer — built using HTML, CSS, and JavaScript.  
-Perfect for daily time-tracking and productivity.
+A simple, responsive, and user-friendly Time Utility App that includes a Digital Clock, Stopwatch, and Countdown Timer 
+built using HTML, CSS, and JavaScript.  Perfect for daily time-tracking and productivity.
 ## **🚀 Features**
 ### **🕒 Digital Clock**
 Displays real-time hours, minutes, and seconds
